@@ -15,7 +15,7 @@ class LRUCache {
   set(key, value) {
     if (this.cache.has(key)) this.cache.delete(key);
     else if (this.cache.size >= this.limit) {
-      // remove least recently used (first inserted)
+      // remove least recently used
       const firstKey = this.cache.keys().next().value;
       this.cache.delete(firstKey);
     }

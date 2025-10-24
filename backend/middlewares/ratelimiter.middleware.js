@@ -1,30 +1,3 @@
-// const ratelimitwindow = 60 * 1000
-// const max = 5
-// const rateLimits = {}
-// const ratelimiter = (req, res, next)=>{
-//     console.log("ratelimmiter hitted")
-//     const ip = req.ip;
-//     const now = Date()
-//     if(!rateLimits[ip]){
-//         rateLimits[ip] = {count:1 , windowStart : now}
-//         return next()
-//     }
-//     const entry = rateLimits[ip];
-//      if(now - entry.windowStart > ratelimitwindow){
-//         entry.count = 1;
-//         entry.windowStart = now
-//         return next()
-//     }
-//     else if( entry.count <max ){
-//         entry.count+=1;
-//         return next();
-//     }
-//     console.log("Api limit exceed try again after sometime")
-//     res.status(429).json({msg: "Api limit exceed try again after sometime"})
-// next()
-
-// }
-// module.exports = ratelimiter
 
 
 const maxratelimit = 5
