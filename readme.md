@@ -171,12 +171,10 @@ Server runs on `http://localhost:3000`.
 
 ---
 
-## Author
 
-**Anish RAJA**
-Full-stack developer with experience in Node.js, Express, caching, and performance optimization.
-
----
+## 💖 Show Some Love
+If you found this project helpful, please ⭐ it on GitHub!  
+Made with ❤️ by **Anish Raja**
 
 ## License
 
